@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>Aviva Investors manages £269 billion on behalf of its clients</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+
+<style>
+
+body {
+  color: #333;
+  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  padding: 0px;
+}
+
+#container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#chartData {
+  border:1px solid #51626F;
+}
+
+#chart {
+  display: block;
+  margin: 0;
+  float: left;
+  cursor: pointer;
+
+}
+
+#chartData {
+  width: 250px;
+  margin: 10px 0px 25px 25px;
+  float: left;
+  border-collapse: collapse;
+  background-position: 0 -100px;
+  -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+
+}
+
+#chartData th, #chartData td {
+  padding: 0.5em;
+  border: 1px dotted #51626F;
+  text-align: left;
+}
+
+#chartData th {
+  border-bottom: 2px solid #51626F;
+  text-transform: uppercase;
+}
+
+#chartData td {
+  cursor: pointer;
+}
+
+#chartData td.highlight {
+  background: #FDD800;
+}
+
+#chartData tr:hover td {
+  background: #FDD800;
+}
+
+</style>
+
+<script src="jquery.min.js"></script>
+<script src="piechart.js"></script>
+
+</head>
+<body>
+
+<div id="container">
+  <canvas id="chart" width="300" height="300"></canvas>
+
+  <table id="chartData">
+  
+  <tr>
+      <th>Fund</th><th>Billion (£)</th>
+     </tr>
+
+    <tr style="color: #00A9E0">
+      <td>Fixed Income</td><td>159.7</td>
+    </tr>
+
+    <tr style="color: #A0B0B9">
+      <td>Equity</td><td>60.1</td>
+    </tr>
+
+    <tr style="color: #425A6C">
+      <td>Real Estate</td><td>24.8</td>
+    </tr>
+
+    <tr style="color: #0058A4">
+      <td>Liquidity</td><td>15.2</td>
+    </tr>
+
+    <tr style="color: #72C7E7">
+      <td>Other</td><td>9.5</td>
+    </tr>
+
+  </table>
+
+</div>
+
+</body>
+</html>
+
