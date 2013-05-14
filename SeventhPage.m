@@ -186,20 +186,20 @@
     
     title1.text = [[NSString stringWithFormat:@"The Team"] uppercaseString];
     
-    biotitle1.text = [NSString stringWithFormat:@"Phil Ellis"];
-    bio1.text = [NSString stringWithFormat:@"Head of Real Estate Client\nPortfolio Management\nAviva Investors\nTel: TBA\nMob: TBA\nphil.ellis@avivainvestors.com"];
+    biotitle1.text = [NSString stringWithFormat:@"Phil"];
+    bio1.text = [NSString stringWithFormat:@"Head of Real Estate Client\nPortfolio Management\nAviva Investors\nTel: TBA\nMob: TBA\nemail3@domain.com"];
     bioBlurbBold1.text = [NSString stringWithFormat:@"After a career as a fund manager, where he was responsible amongst other things for the setting up the multi-manager team, Phil is now responsible for Aviva Investors institutional real estate clients and for the development of the Aviva Investors real estate fund management business."];
-    bioBlurbLight1.text = [NSString stringWithFormat:@"Phil advises public sector and corporate pension fund clients on their direct and indirect real estate holdings and has been closely involved in all pension fund multi-manager and segregated client mandates. Phil is a chartered surveyor and sits on the property panel of the National Association of Pension Funds."];
+    bioBlurbLight1.text = [NSString stringWithFormat:@"blurb."];
     
-    biotitle2.text = [NSString stringWithFormat:@"David Skinner"];
-    bio2.text = [NSString stringWithFormat:@"Investment Strategy and Research\nDirector – Real Estate\nAviva Investors\nTel: TBA\nMob: TBA\ndavid.skinner@avivainvestors.com"];
+    biotitle2.text = [NSString stringWithFormat:@"David"];
+    bio2.text = [NSString stringWithFormat:@"Investment Strategy and Research\nDirector – Real Estate\nAviva Investors\nTel: TBA\nMob: TBA\nemail2@domain.com.com"];
     bioBlurbBold2.text = [NSString stringWithFormat:@"David is responsible for the management of the Aviva Investors real estate investment strategy and research team. "];
-    bioBlurbLight2.text = [NSString stringWithFormat:@"David has the remit to further enhance the UK and European strategy and research capability and co-ordinates global asset allocation discussions and assists in allocations across direct, unlisted funds and listed securities."];
+    bioBlurbLight2.text = [NSString stringWithFormat:@"blurb."];
     
-    biotitle3.text = [NSString stringWithFormat:@"Chris Laxton"];
-    bio3.text = [NSString stringWithFormat:@"Real Estate Investment Director\nAviva Investors\nTel: TBA\nMob: TBA\nchris.laxton@avivainvestors.com"];
+    biotitle3.text = [NSString stringWithFormat:@"Chris"];
+    bio3.text = [NSString stringWithFormat:@"Real Estate Investment Director\nAviva Investors\nTel: TBA\nMob: TBA\nemail1@domain.com"];
     bioBlurbBold3.text = [NSString stringWithFormat:@"Chris is responsible for initiating and overseeing the implementation of new real estate product and service initiatives."];
-    bioBlurbLight3.text = [NSString stringWithFormat:@"Chris set up the UK’s first Authorised Property Unit Trust (Aviva Investors Property Trust) in 1991 before spending 2 years in New Zealand where he was responsible for restructuring Aviva Investors existing property portfolios. In 1994 Chris became responsible for the external property funds team and has been responsible for the global business development team since 2008. Chris is a Member of the Royal Institution of Chartered Surveyors and a Member of the Investment Property Forum. He was also was Chairman of the Association of Real Estate Funds (formerly known as the Association of Property Unit Trusts) in 2004 and 2005."];
+    bioBlurbLight3.text = [NSString stringWithFormat:@"blurb."];
     
     [bioBackground1 setAlpha:0.0f];
     [bioBackground2 setAlpha:0.0f];
